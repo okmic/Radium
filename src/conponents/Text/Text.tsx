@@ -2,18 +2,18 @@ import './text.css'
 
 export const Text = () => <>
   <h1>
-    <span>Михаил</span>
+    <span>Michael</span>
     <span> </span>
-    <span>начинающий</span>
+    <span>Go</span>
     <span> </span>
     <br />
-    <span>web</span>
+    <span>JS</span>
     <span>-</span>
-    <span>программист</span>
+    <span>TS</span>
     <br />
-    <span>Junior</span>
+    <span>PHP</span>
     <span> </span>
-    <span>Frontend</span>
+    <span>Node.js</span>
     <span> </span>
     <span>Developer!</span>
   </h1>

@@ -1,7 +1,7 @@
 import gb from './gb.svg'
 
 export const Me = () => <a
-    href="https://github.com/Alpha-Lucky"
+    href="https://github.com/okmic"
     target="_blank"
     rel="noreferrer"
     style={

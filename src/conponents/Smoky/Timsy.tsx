@@ -9,7 +9,7 @@ type PropsType = {
 
 export const Tipsy: React.FC<PropsType> = ({ time, back, setOrder }) => <>
     {back
-        ? <b>Текст вернется через {time} сек.</b>
-        : <button className="glo" onClick={setOrder}>Текст удален! Кликнете что-бы вернуть его обратно</button>
+        ? <b>Back in {time} sec.</b>
+        : <button className="glo" onClick={setOrder}>Text removed! Click to bring it back</button>
     }
 </>
