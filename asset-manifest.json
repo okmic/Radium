@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Radium/static/css/main.0bbeafb5.css",
+    "main.js": "/Radium/static/js/main.1547a5e9.js",
+    "static/js/787.edd59a96.chunk.js": "/Radium/static/js/787.edd59a96.chunk.js",
+    "static/media/gb.svg": "/Radium/static/media/gb.bfe22a7c4c4cc4b7490fd260eb7d60c6.svg",
+    "index.html": "/Radium/index.html",
+    "main.0bbeafb5.css.map": "/Radium/static/css/main.0bbeafb5.css.map",
+    "main.1547a5e9.js.map": "/Radium/static/js/main.1547a5e9.js.map",
+    "787.edd59a96.chunk.js.map": "/Radium/static/js/787.edd59a96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bbeafb5.css",
+    "static/js/main.1547a5e9.js"
+  ]
+}
