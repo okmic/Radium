@@ -14,7 +14,7 @@ function App() {
     const onKeypress = (e: KeyboardEvent<HTMLImageElement> | any) => {
       if (e.code === "Space") {
         setOrder(false)
-        
+
       }
     }
     document.addEventListener('keypress', onKeypress)
@@ -45,18 +45,18 @@ function App() {
   }, [click])
 
   return <>
-  <Me />
+    <Me />
     {(click && order)
-    ? <div onClick={handleClickMouse}>
+      ? <div onClick={handleClickMouse}>
         <Text />
       </div>
-    : click 
-    ? <Tipsy setOrder={() => {
-      setOrder(true)
-    }} 
-    back={false}
-    />
-    :  <Tipsy back={true} time={time} />
+      : click
+        ? <Tipsy setOrder={() => {
+          setOrder(true)
+        }}
+          back={false}
+        />
+        : <Tipsy back={true} time={time} />
     }
   </>
 }
